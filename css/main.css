@@ -1,8 +1,14 @@
-html {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 12px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+html {
+  font-family: 'Lucida Console', 'Andale Mono', sans-serif;
+  font-size: 1em;
+  color: #2d3c49;
+}
 
 img,
 video,
@@ -13,20 +19,48 @@ embed {
 
 header {
   display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem;
 }
 
-/* TODO: set properties for flex items
-.box {
-
-}
-*/
-/* 
 .logo {
-  max-height: 50px;
-} */
+  max-width: 60px;
+}
+
+.author {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.author h1 {
+  font-size: 2rem;
+}
 
 .galerie {
   display: flex;
+  flex-direction: column;
+  
+}
+
+.title-galerie {
+  font-size: 1.5rem;
+  width: 100%;
+  color: #7d97ad;
+  padding: 0.5rem;
+}
+
+figure {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+figcaption {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+a {
+  font-size: 1rem;
 }
 
 /* TODO: set properties to @media
