@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: 'Lucida Console', 'Andale Mono', sans-serif;
+  font-family: "Lucida Console", "Andale Mono", sans-serif;
   font-size: 1em;
   color: #2d3c49;
 }
@@ -41,7 +41,7 @@ header {
 }
 
 .hero-image {
-  background-image: url("../img/do-something-great.jpg");
+  background-image: url(../img/do-something-great.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -51,7 +51,7 @@ header {
 
 #nav-bar {
   position: absolute;
-  top: .5rem;
+  top: 0.5rem;
   display: inline-flex;
   justify-content: space-evenly;
   width: 100%;
@@ -71,8 +71,8 @@ header {
 
 .hero-image p {
   position: absolute;
-  bottom: .5rem;
-  font-size: .7rem;
+  bottom: 0.5rem;
+  font-size: 0.7rem;
   left: 1rem;
   color: #595b5e;
 }
@@ -90,11 +90,12 @@ figure {
 }
 
 figure p {
-  font-size: .7rem;
+  font-size: 0.7rem;
   position: absolute;
   top: 1rem;
   left: 1rem;
-  color: #d3d3d398;
+  color: #cfcfcf;
+  background-color: #000;
 }
 
 figcaption {
@@ -148,7 +149,7 @@ footer {
   }
 
   figure img {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
   }
 }
 
@@ -168,7 +169,7 @@ footer {
   }
 
   figure img {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
   }
 }
 
