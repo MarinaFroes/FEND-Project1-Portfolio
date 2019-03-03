@@ -38,6 +38,7 @@ header {
 
 .author h2 {
   font-size: 1.5rem;
+  color: #7d97ad;
 }
 
 .hero-image {
@@ -95,7 +96,7 @@ figure p {
   top: 1rem;
   left: 1rem;
   color: #cfcfcf;
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 figcaption {
