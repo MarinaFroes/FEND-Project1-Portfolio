@@ -1,0 +1,37 @@
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+
+img,
+video,
+object,
+embed {
+    max-width: 100%;
+}
+
+header {
+  display: flex;
+}
+
+/* TODO: set properties for flex items
+.box {
+
+}
+*/
+/* 
+.logo {
+  max-height: 50px;
+} */
+
+.galerie {
+  display: flex;
+}
+
+/* TODO: set properties to @media
+figure {
+  display: inline-block;
+  width: 33%;
+}
+*/
