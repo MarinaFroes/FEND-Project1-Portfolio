@@ -36,17 +36,48 @@ header {
   font-size: 2rem;
 }
 
-hr {
-  font-size: 5rem;
+.author h2 {
+  font-size: 1.5rem;
 }
 
-.galerie {
-  display: flex;
-  flex-direction: column;
-  
+.hero-image {
+  background-image: url("../img/do-something-great.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 15rem; /*TODO: check effects*/
+  max-height: 60rem; /*TODO: check effects*/
 }
 
-.title-galerie {
+#nav-bar {
+  position: absolute;
+  top: .5rem;
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#nav-bar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+#nav-bar a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero-image p {
+  position: absolute;
+  bottom: .5rem;
+  font-size: .7rem;
+  left: 1rem;
+  color: #595b5e;
+}
+
+.title-gallery {
   font-size: 1.5rem;
   width: 100%;
   color: #7d97ad;
@@ -56,15 +87,37 @@ hr {
 figure {
   text-align: center;
   padding: 1rem 0;
+  position: relative;
+}
+
+figure p {
+  font-size: .7rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #d3d3d398;
 }
 
 figcaption {
   font-size: 1.5rem;
   text-transform: uppercase;
 }
-
+/*TODO: fix anchor formatting*/
 a {
   font-size: 1rem;
+  text-decoration: none;
+  color: #7d97ad; 
+  text-emphasis: 
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
 }
 
 footer {

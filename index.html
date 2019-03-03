@@ -13,62 +13,56 @@
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
 </head>
 
 <body>
 
   <header>
-    <div class="box logo">
+    <div class="logo">
       <img src="./img/biglogo.png" alt="logo">
     </div>
-    <div class="box author">
+    <div class="author">
       <h1>Marina Costa</h1>
       <h2>Front-End Ninja</h2>
     </div>
   </header>
 
-  <!-- TODO: add nav bar with extra info about author and social media
-  <nav>
-    <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Contact</a></li>
-      <li></li>
-    </ul>
-  </nav>
--->
   <main>
-    <section class="box hero-image">
-      <img src="./img/do-something-great.jpg" alt="Sign with the phrase: do something great"> <!-- TODO: add related img and edit alt-->
+    <section class="hero-image">
       <!--TODO: add credits to laptop photo. Photo by Dmitry Chernyshov on Unsplash-->
       <!--TODO: add credits to do-something-great photo. Photo by Clark Tibbs on Unsplash-->
+      <nav id="nav-bar">
+        <a href="#">About Me</a>
+        <a href="#">Contact</a>
+        <a href="#">Credits</a>
+      </nav>
+      <p>Photo by Clark Tibbs on Unsplash</p>
     </section>
 
-    <section class="box galerie">
-      <div class="box title-galerie">
+    <section class="gallery">
+      <div class="title-gallery">
         <h3>Featured Work</h3>
       </div>
-      
-      <div class="box projects">
+      <div class="projects">
         <figure>
-          <img src="./img/memory.jpg" alt="Memory Game"> <!-- TODO: add related img and edit alt-->
-          <!--TODO: add credits to memory photo. Photo by Soragrit Wongsa on Unsplash-->
+          <img src="./img/memory.jpg" alt="Memory Game"> 
+          <p>Photo by Soragrit Wongsa on Unsplash</p>
           <figcaption>Memory Game</figcaption>
-          <a href="#">Check this project at gitHub</a>
+          <a href="#">Check this project on gitHub</a>
         </figure>
         <figure>
-          <img src="./img/arcade.jpg" alt="Arcade Game"> <!-- TODO: add related img and edit alt-->
-          <!--TODO: add credits to arcade photo. Photo by Kelly Sikkema on Unsplash-->
+          <img src="./img/arcade.jpg" alt="Arcade Game"> 
+          <p>Photo by Kelly Sikkema on Unsplash</p>
           <figcaption>Classic Arcade Game Clone</figcaption>
-          <a href="#">Check this project at gitHub</a>
+          <a href="#">Check this project on gitHub</a>
         </figure>
         <figure>
-          <img src="./img/restaurant.jpg" alt="restaurant"> <!-- TODO: add related img and edit alt-->
-          <!--TODO: add credits for restaurant photo. Photo by Jesson Mata on Unsplash-->
+          <img src="./img/restaurant.jpg" alt="restaurant">
+          <p>Photo by Jesson Mata on Unsplash</p> 
           <figcaption>Restaurant Review App</figcaption>
-          <a href="#">Check this project at gitHub</a>
+          <a href="#">Check this project on gitHub</a>
         </figure>
-        
-        
       </div>
     </section>
   </main>
@@ -79,10 +73,8 @@
       <p>Page written by Marina
           Fróes A. Costa.</p>
     </address>
-    <i class="fab fa-linkedin"></i>
-    <i class="fab fa-github"></i>
-    <!--TODO: add link to linkedin. <a href="https://www.linkedin.com/in/marina-froes-a-costa/"></a>-->
-    <!--TODO: add link to github. https://github.com/MarinaFroes-->
+    <a href="https://www.linkedin.com/in/marina-froes-a-costa/" class="fab fa-linkedin"></a>
+    <a href="https://github.com/MarinaFroes" class="fab fa-github"></a>
   </footer>
   <script src="main.js"></script>
 </body>
