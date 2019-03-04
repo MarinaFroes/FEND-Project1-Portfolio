@@ -14,7 +14,7 @@ img,
 video,
 object,
 embed {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 header {
@@ -142,6 +142,7 @@ footer a:hover {
   .hero-image {
     min-height: 20rem;
   }
+
   .projects {
     display: inline-flex;
     flex-wrap: wrap;
