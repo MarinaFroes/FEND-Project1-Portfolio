@@ -84,13 +84,13 @@ header {
   padding: 0.5rem;
 }
 
-figure {
+.project {
   text-align: center;
   padding: 1rem 0;
   position: relative;
 }
 
-figure p {
+.project p {
   font-size: 0.7rem;
   position: absolute;
   top: 1rem;
@@ -98,7 +98,7 @@ figure p {
   color: #cfcfcf;
 }
 
-figcaption {
+.project h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
 }
@@ -148,11 +148,11 @@ footer a:hover {
     justify-content: center;
   }
 
-  figure {
+  .project {
     width: 50%;
   }
 
-  figure img {
+  .project img {
     padding: 0 0.5rem;
   }
 }
@@ -168,11 +168,11 @@ footer a:hover {
     justify-content: center;
   }
 
-  figure {
+  .project {
     width: 33.333%;
   }
 
-  figure img {
+  .project img {
     padding: 0 0.5rem;
   }
 }
