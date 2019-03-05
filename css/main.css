@@ -23,8 +23,9 @@ header {
   margin: 1rem 2rem;
 }
 
-.logo {
-  max-width: 60px;
+#logo {
+  font-size: 2.5rem;
+  color: #02b3e4;
 }
 
 .author {
