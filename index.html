@@ -16,19 +16,17 @@
 <body>
 
   <header>
-    <div class="logo">
-      <i id="logo" class="fas fa-code"></i>
-    </div>
+    <i class="logo fas fa-code"></i>
     <div class="author">
       <h1>Marina Costa</h1>
-      <h2>Front-End Developer</h2>
+      <p>Front-End Developer</p>
     </div>
   </header>
 
   <main>
     <div class="hero-image">
       <nav id="nav-bar">
-        <!--TODO: add pages to each link-->
+        <!-- TODO: add pages to each link -->
         <a href="#">Home</a>
         <a href="#">About Me</a>
         <a href="#">Contact</a>
@@ -36,30 +34,29 @@
       <p>Photo by Clark Tibbs on Unsplash</p>
     </div>
     <section class="gallery">
-      <!-- TODO: optimize sizes of images -->
       <div class="title-gallery">
-        <h3>Featured Work</h3>
+        <h2>Featured Work</h2>
       </div>
       <div class="projects">
         <div class="project">
-          <img src="./img/memory.jpg" alt="Memory Game"> 
+          <img srcset="./img/memory-large.jpg 1200w, ./img/memory-medium.jpg 700w, ./img/memory-small.jpg 500w" sizes="(max-width: 500px) 500px, (max-width: 700px) 700px, 1200px" src="./img/memory-large.jpg"  alt="Memory Game"> 
           <p>Photo by Johannes Plenio on Unsplash</p>
           <h3>Memory Game</h3>
-          <!--TODO: add real link to gitHub-->
+          <!-- TODO: add real link to gitHub -->
           <a href="#">Check this project on gitHub</a>
         </div>
         <div class="project">
-          <img src="./img/arcade.jpg" alt="Arcade Game"> 
+          <img srcset="./img/arcade-large.jpg 1200w, ./img/arcade-medium.jpg 700w, ./img/arcade-small.jpg 500w" sizes="(max-width: 500px) 500px, (max-width: 700px) 700px, 1200px" src="./img/arcade-large.jpg" alt="Arcade Game">
           <p>Photo by Kelly Sikkema on Unsplash</p>
           <h3>Arcade Game Clone</h3>
-          <!--TODO: add real link to gitHub-->
+          <!-- TODO: add real link to gitHub -->
           <a href="#">Check this project on gitHub</a>
         </div>
         <div class="project">
-          <img src="./img/restaurant.jpg" alt="restaurant">
+          <img srcset="./img/restaurant-large.jpg 1200w, ./img/restaurant-medium.jpg 700w, ./img/restaurant-small.jpg 500w" sizes="(max-width: 500px) 500px, (max-width: 700px) 700px, 1200px" src="./img/restaurant-large.jpg" alt="Restaurant">
           <p>Photo by Jesson Mata on Unsplash</p> 
           <h3>Restaurant Review App</h3>
-          <!--TODO: add real link to gitHub-->
+          <!-- TODO: add real link to gitHub -->
           <a href="#">Check this project on gitHub</a>
         </div>
       </div>

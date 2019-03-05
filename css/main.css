@@ -23,8 +23,8 @@ header {
   margin: 1rem 2rem;
 }
 
-#logo {
-  font-size: 2.5rem;
+.logo {
+  font-size: 1.8rem;
   color: #02b3e4;
 }
 
@@ -37,15 +37,13 @@ header {
   font-size: 1.8rem;
 }
 
-.author h2 {
+.author p {
   font-size: 1rem;
   color: #7d97ad;
 }
 
 .hero-image {
-  background-image: url(../img/do-something-great.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(../img/do-something-great-small.jpg) center no-repeat;
   background-size: cover;
   position: relative;
   min-height: 15rem;
@@ -76,13 +74,19 @@ header {
   bottom: 0.5rem;
   font-size: 0.7rem;
   left: 1rem;
-  color: #595b5e;
+  color: #cfcfcf;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
 }
 
 .title-gallery {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #7d97ad;
-  padding: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
 }
 
 .project {
@@ -115,14 +119,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.gallery {
-  display: flex;
-  flex-direction: column;
-}
-
 footer {
   padding: 1rem;
   text-align: center;
+}
+
+address p {
+  font-size: 1rem;
+  color: #7d97ad;
 }
 
 .fab {
@@ -135,12 +139,15 @@ footer a:hover {
   text-decoration: none;
 }
 
-@media screen and (min-width: 500px) {
-  html {
-    font-size: 1.1em;
+@media screen and (min-width: 350px) {
+  .logo {
+    font-size: 2.5rem;
   }
+}
 
+@media screen and (min-width: 500px) {
   .hero-image {
+    background-image: url(../img/do-something-great-medium.jpg);
     min-height: 20rem;
   }
 
@@ -159,11 +166,12 @@ footer a:hover {
   }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   .hero-image {
+    background-image: url(../img/do-something-great-large.jpg);
     min-height: 25rem;
   }
-
+  
   .projects {
     display: inline-flex;
     flex-wrap: wrap;
@@ -179,9 +187,9 @@ footer a:hover {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   body {
-    width: 1200px;
+    width: 1400px;
     margin-left: auto;
     margin-right: auto;
   }
