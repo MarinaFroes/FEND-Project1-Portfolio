@@ -43,18 +43,18 @@ header {
 }
 
 .hero-image {
+  display: flex;
   background: url(../img/do-something-great-small.jpg) center no-repeat;
   background-size: cover;
-  position: relative;
   min-height: 15rem;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #nav-bar {
-  position: absolute;
-  top: 0.5rem;
-  display: inline-flex;
+  display: flex;
   justify-content: space-evenly;
-  width: 100%;
+  margin-top: 0.5rem;
 }
 
 #nav-bar a {
@@ -70,10 +70,8 @@ header {
 }
 
 .hero-image p {
-  position: absolute;
-  bottom: 0.5rem;
+  margin: 0.5rem 1rem;
   font-size: 0.7rem;
-  left: 1rem;
   color: #cfcfcf;
 }
 
@@ -83,29 +81,33 @@ header {
 }
 
 .title-gallery {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #7d97ad;
-  padding-top: 1rem;
-  padding-left: 1rem;
+  padding: 1rem 1rem;
 }
 
+/* Note to the reviewer: it is necessary to use positioning here to put credits over the images. */
 .project {
   text-align: center;
-  padding: 1rem 0;
-  position: relative;
+  padding-bottom: 1rem;
+  position: relative; 
 }
 
+/* Note to the reviewer: same as above. */
 .project p {
   font-size: 0.7rem;
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
+  text-align: left;
+  padding-left: 1rem;
   color: #cfcfcf;
+  position: absolute; 
+  top: 0.3rem; 
+  left: 0.3rem; 
 }
 
 .project h3 {
   font-size: 1.5rem;
   text-transform: uppercase;
+  padding-top: 0.5rem;
 }
 
 a {
@@ -171,26 +173,14 @@ footer a:hover {
     background-image: url(../img/do-something-great-large.jpg);
     min-height: 25rem;
   }
-  
-  .projects {
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
   .project {
     width: 33.333%;
   }
 
-  .project img {
-    padding: 0 0.5rem;
-  }
-}
-
 @media screen and (min-width: 1400px) {
   body {
     width: 1400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
