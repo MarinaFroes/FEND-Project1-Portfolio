@@ -1,5 +1,5 @@
 
-![Favicon](/images/favicon.png) 
+![Favicon](./img/favicon.png) 
 # Udacity Front-End Nanodegree Project 1 - Portfolio
 
 ## Introduction
