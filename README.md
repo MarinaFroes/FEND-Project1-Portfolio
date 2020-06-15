@@ -1,6 +1,6 @@
 
-![Favicon](./img/favicon.png) 
-# Udacity Front-End Nanodegree Project 1 - Portfolio
+<p align="center"><img src="./img/mylogo.svg" alt="logo" title="logo" width="80"></p>
+<h1 align="center">Udacity Front-End Nanodegree Project 1 - Portfolio</h1>
 
 ## Introduction
 
@@ -19,8 +19,7 @@ The HTML and CSS files were validated by the followings validators  without any 
 
 ## How to run this application?
 
-- Download all the files and open index.html on the browser.
-- The tests will appear on the bottom of the page.
+- Download all the files and open `index.html` on the browser.
 
 ## References
 
