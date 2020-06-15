@@ -20,6 +20,7 @@ embed {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 1rem 2rem;
 }
 
@@ -138,9 +139,9 @@ address p {
   cursor: pointer;
 }
 
-footer a:hover {
-  text-decoration: none;
+.icon:hover {
   color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 350px) {
