@@ -6,7 +6,7 @@
 
 html {
   font-family: "Lucida Console", "Andale Mono", sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   color: #2d3c49;
 }
 
@@ -23,9 +23,9 @@ header {
   margin: 1rem 2rem;
 }
 
-.logo {
-  font-size: 1.8rem;
-  color: #02b3e4;
+.logo img {
+  height: 3rem;
+  text-decoration: none;
 }
 
 .author {
@@ -131,19 +131,25 @@ address p {
   color: #7d97ad;
 }
 
-.fab {
+.icon {
   font-size: 2rem;
   color: #7d97ad;
   padding: 1rem;
+  cursor: pointer;
 }
 
 footer a:hover {
   text-decoration: none;
+  color: black;
 }
 
-@media screen and (min-width: 350px) {
-  .logo {
-    font-size: 2.5rem;
+@media screen and (max-width: 350px) {
+  .logo img {
+    display: none;
+  }
+
+  .icon { 
+    font-size: 1rem;
   }
 }
 
